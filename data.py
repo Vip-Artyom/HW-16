@@ -313,4 +313,4 @@ offers = [{'id': 0, 'order_id': 36, 'executor_id': 10}, {'id': 1, 'order_id': 35
           {'id': 62, 'order_id': 25, 'executor_id': 28}, {'id': 63, 'order_id': 18, 'executor_id': 17},
           {'id': 64, 'order_id': 48, 'executor_id': 8}, {'id': 65, 'order_id': 40, 'executor_id': 17},
           {'id': 66, 'order_id': 47, 'executor_id': 19}, {'id': 67, 'order_id': 13, 'executor_id': 11},
-          {'id': 68, 'order_id': 46, 'executor_id': 27}, {'id': 69, 'order_id': 45, 'executor_id': 28}
+          {'id': 68, 'order_id': 46, 'executor_id': 27}, {'id': 69, 'order_id': 45, 'executor_id': 28}]
