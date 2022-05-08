@@ -173,6 +173,7 @@ def users_index_id(uid):
 
         db.session.add(user)
         db.session.commit()
+        db.session.close()
 
         return "Пользователь обновлен"
 
@@ -181,6 +182,7 @@ def users_index_id(uid):
 
         db.session.delete(user)
         db.session.commit()
+        db.session.close()
 
         return "Пользователь удален"
 
@@ -263,6 +265,7 @@ def orders_index_id(oid):
 
         db.session.add(order)
         db.session.commit()
+        db.session.close()
 
         return "Пользователь обновлен"
 
@@ -271,6 +274,7 @@ def orders_index_id(oid):
 
         db.session.delete(order)
         db.session.commit()
+        db.session.close()
 
         return "Пользователь удален"
 
@@ -326,6 +330,7 @@ def offers_index_id(oid):
 
         db.session.add(offer)
         db.session.commit()
+        db.session.close()
 
         return "Пользователь обновлен"
 
@@ -334,6 +339,7 @@ def offers_index_id(oid):
 
         db.session.delete(offer)
         db.session.commit()
+        db.session.close()
 
         return "Пользователь удален"
 
